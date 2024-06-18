@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>YouTube動画埋め込み更新</title>
+    <title>YTbypass</title>
     <script>
         function updateVideo() {
             var videoId = document.getElementById('videoIdInput').value;
@@ -12,11 +12,11 @@
     </script>
 </head>
 <body>
-    <h1>YouTube動画埋め込み更新</h1>
-    <label for="videoIdInput">動画IDを入力してください:</label>
-    <input type="text" id="videoIdInput" placeholder="動画ID">
-    <button onclick="updateVideo()">更新</button>
+    <h3>YTbypass</h3>
+    <label for="videoIdInput">id here:</label>
+    <input type="text" id="videoIdInput" placeholder="ID">
+    <button onclick="updateVideo()">refresh</button>
     <br><br>
-    <iframe id="youtube-video" width="560" height="315" src="https://youtu.be/SX_ViT4Ra7k?si=FtKV0-C98IHFnLqf" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/SX_ViT4Ra7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
